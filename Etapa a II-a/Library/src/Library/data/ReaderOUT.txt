@@ -1,0 +1,5 @@
+Reader : name = Andreea Mihena; age = 30; CNP = 2910112061123; Is student? = false.
+Reader : name = Andrei Vlad; age = 20; CNP = 5001122394971; Is student? = true.
+Reader : name = Bogdan Neacsu; age = 30; CNP = 1910410052442; Is student? = false.
+Reader : name = Marian Vasilescu; age = 20; CNP = 5001215321518; Is student? = true.
+Reader : name = Marina Andreescu; age = 30; CNP = 2910301015472; Is student? = false.
