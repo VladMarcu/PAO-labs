@@ -8,7 +8,7 @@ import Library.exceptions.WritingExceptions;
 import java.io.*;
 import java.util.ArrayList;
 public class ReadingService {
-    //luam cititor din fisier
+    
     public static Reader[] readReader(Reader[] readerList) throws WritingExceptions {
         try (BufferedReader buffer = new BufferedReader(new FileReader("src/Library/data/ReaderIN.txt"))) {
             String line = buffer.readLine();
@@ -21,10 +21,9 @@ public class ReadingService {
                 reader.setCnp(lines[2]);
                 reader.setStudent(Boolean.valueOf(lines[3]));
 
-                //dupa ce ii setez atributele, il adaug in lista
+                //adaug in lista
                 readers.add(reader);
 
-                // go to next line
                 line = buffer.readLine();
             }
             for (Reader reader : readers) {
